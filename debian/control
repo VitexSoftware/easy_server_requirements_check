@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/easyredmine/easy_server_requirements_check
 Package: easycheck
 Architecture: any
 Multi-Arch: foreign
-Depends: ${misc:Depends}, bash, curl, ruby-rubygems, ruby-bundler, gcc, default-libmysqlclient-dev,  mariadb-client, build-essential, ruby-dev, libxslt1-dev, libmariadb-dev, libxml2-dev, zlib1g-dev, imagemagick,libmagickwand-dev
+Depends: ${misc:Depends}, bash, curl, ruby|ruby-rubygems, ruby-bundler, gcc, default-libmysqlclient-dev,  mariadb-client, build-essential, ruby-dev, libxslt1-dev, libmariadb-dev, libxml2-dev, zlib1g-dev, imagemagick,libmagickwand-dev
 	${shlibs:Depends}
 Recommends: 
 Description: Check destination system for Redmine requirements.

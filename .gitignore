@@ -1,2 +1,9 @@
 .vagrant
+debian/.debhelper
+debian/easycheck
+debian/files
+debian/debhelper-build-stamp
+debian/easycheck.debhelper.log
+debian/easycheck.substvars
+
 
