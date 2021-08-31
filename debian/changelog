@@ -1,0 +1,6 @@
+easycheck (1.0) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- vitex <info@vitexsoftware.cz>  Wed, 01 Sep 2021 00:35:40 +0200

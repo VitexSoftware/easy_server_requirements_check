@@ -1,0 +1,3 @@
+debian/io.github.easyredmine.easycheck.metainfo.xml /usr/share/metainfo/
+easycheck.sh				            /usr/bin
+debian/easycheck.svg				    /usr/share/icons/hicolor/scalables/apps/

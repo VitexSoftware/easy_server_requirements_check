@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+  <id>io.github.easyredmine.easycheck</id>
+  
+  <name>EasyCheck</name>
+  <summary>Check destination system for Redmine requirements.</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  
+  <description>
+    <p>
+      What is checked ?
+    </p>
+    <p>
+      <em>   Root Access </em>   Distro Type and Version <em>   Curl tool presence </em>   Availble RAM size <em>   Availble Disk Space </em>   Ruby language runtime presence and version <em>   Conectivity to rubygems.org </em>   Gem tool presence <em>   Bundler gem and command presence </em>   compiler presence and version <em>   mysql client development files </em>   postgresql client presence <em>   Imagick development files presence </em>   Redmine-Installer tool presence
+      </p>
+    </description>
+    
+    <icon type="stock">easycheck</icon>
+    
+    <categories>
+      <category>System</category>
+      <category>Adult</category>
+    </categories>
+    
+    <provides>
+      <binary>easycheck</binary>
+    </provides>
+  </component>
+
