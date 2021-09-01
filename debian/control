@@ -13,7 +13,7 @@ Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, bash 
 	${shlibs:Depends}
-Recommends: curl, ruby|ruby-rubygems, ruby-bundler, gcc, default-libmysqlclient-dev,  mariadb-client, build-essential, ruby-dev, libxslt1-dev, libmariadb-dev, libxml2-dev, zlib1g-dev, imagemagick,libmagickwand-dev
+Recommends: curl, ruby|ruby-rubygems, ruby-bundler, gcc, mariadb-client, build-essential, ruby-dev, libxslt1-dev, default-libmysqlclient-dev|libmariadb-dev, libxml2-dev, zlib1g-dev, imagemagick,libmagickwand-dev
 Description: Check destination system for Redmine requirements.
  Bash shell script that Check destination system for (Easy)Redmine requirements.
  
